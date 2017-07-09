@@ -39,7 +39,7 @@ while(True):
 	for i in range(1,13):
 		remainBal = getMonthPay(remainBal, monthRate, currPaid)
 		
-	if remainBal > 0.01:
+	if remainBal > 0.005:
 		payLowB = currPaid
 	elif remainBal <= 0.005 and remainBal >= -0.005:
 		currPaid += 0.004999
