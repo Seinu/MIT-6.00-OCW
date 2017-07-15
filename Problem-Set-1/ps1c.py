@@ -42,11 +42,12 @@ while(True):
 	if remainBal > 0.005:
 		payLowB = currPaid
 	elif remainBal <= 0.005 and remainBal >= -0.005:
-		currPaid += 0.004999
 		remainBal = balance
 		for i in range(1,13):
-			remainBal = getMonthPay(remainBal, monthRate, currPaid)
-			
+			remainBal = round(getMonthPay(remainBal, monthRate, currPaid),2)
+			print remainBal
+		
+		currPaid += 0.004999
 		break
 	else:
 		payHighB = currPaid
@@ -54,7 +55,7 @@ while(True):
 	remainBal = balance
 
 
-print('RESULT')
-print('Monthly payment to pay off debt in 1 year: ', round(currPaid, 2))
-print('Number of months needed: ', i)
-print('Balance: ', round(remainBal, 2))
+print 'RESULT'
+print 'Monthly payment to pay off debt in 1 year: ', round(currPaid, 2)
+print 'Number of months needed: ', i
+print 'Balance: ', round(remainBal, 2)

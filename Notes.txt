@@ -2,9 +2,9 @@ for every problem involving math in the solution I barely understand what any of
     This course has been an excellent opportunity for me to learn more and gain practice with not only programming but also math.
     
 Things I've learned so far:
-    What math Functions are
-    Bisection Search(which honestly seems very similar to Binary Search)
-    That I need so socialized more both online and offline especially with people smarter then I am
-    
+    What function in math is.
+    Bisection Search(which honestly seems very similar to Binary Search).
+    That I need so socialized more both online and offline especially with people smarter then I am.
+    Better understanding of recursion.
 
 
